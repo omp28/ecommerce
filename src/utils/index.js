@@ -39,6 +39,46 @@ export const adminNavOptions = [
   },
 ];
 
+export const registrationFormControls = [
+  {
+    id: "name",
+    type: "text",
+    placeholder: "Enter your Name",
+    label: "Name",
+    componentType: "input",
+  },
+  {
+    id: "name",
+    type: "text",
+    placeholder: "Enter your Email",
+    label: "Name",
+    componentType: "input",
+  },
+  {
+    id: "name",
+    type: "text",
+    placeholder: "Enter your Password",
+    label: "Name",
+    componentType: "input",
+  },
+  {
+    id: "name",
+    type: "",
+    placeholder: " ",
+    label: "Name",
+    componentType: "select",
+    options: [
+      {
+        id: "admin",
+        label: "Admin",
+      },
+      {
+        id: "customer",
+        label: "customer",
+      },
+    ],
+  },
+];
 // custom button styles
 // export const styles = {
 //   button:
