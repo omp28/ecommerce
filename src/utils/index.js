@@ -48,24 +48,24 @@ export const registrationFormControls = [
     componentType: "input",
   },
   {
-    id: "name",
+    id: "email",
     type: "text",
     placeholder: "Enter your Email",
-    label: "Name",
+    label: "Email",
     componentType: "input",
   },
   {
-    id: "name",
+    id: "password",
     type: "text",
     placeholder: "Enter your Password",
-    label: "Name",
+    label: "Password",
     componentType: "input",
   },
   {
-    id: "name",
+    id: "role",
     type: "",
     placeholder: " ",
-    label: "Name",
+    label: "Role",
     componentType: "select",
     options: [
       {
@@ -74,7 +74,7 @@ export const registrationFormControls = [
       },
       {
         id: "customer",
-        label: "customer",
+        label: "Customer",
       },
     ],
   },
